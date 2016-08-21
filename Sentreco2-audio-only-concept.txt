@@ -1,0 +1,18 @@
+Sentreco3 Audio Only API
+
+This enhancement will allow devices to send raw audio recordings to Sentreco3 and receive an audio file response.
+
+Variables sent to the API
+Bot_ID = alphanumeric
+API_Key = alphanumeric
+Device_ID = alphanumeric
+Audio_File = WAV?
+
+The API will receive and sanitize the posted items.
+The Audio File will be transcribed using a command line speech to text process
+
+The transcribed audio and the posted variables will be passed to the Sentreco2 API
+The Sentreco2 API's response will be parsed
+The Say item from the Sentreco2 API response will be converted to audio using the command line text to speech process
+
+The address of the audio file will be returned to the device

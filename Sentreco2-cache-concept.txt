@@ -1,0 +1,40 @@
+Sentreco 2 Buffering
+3/6/14
+
+********************
+When input is received, the API will check that user input for existence in the buffer database.
+If the input is found then the saved response will be returned.
+
+Else the input will be processed as normal AND the input will be saved to the buffer database.
+
+This will speed up response time for very large questions.
+
+**********************
+
+//Psuedocode
+
+//existing Sentreco 2 code here - read user input
+
+//Connect to buffer database
+
+//Query results where fields match the user input
+
+//If there is an output 
+//{
+
+//then results equal the saved output field from the buffer
+
+//}
+
+//Else
+//{
+
+//Continue on with the search
+
+//existing Sentreco 2 code here - query SentenceRecognition API
+
+//Save results to the buffer database
+  
+//}
+
+//existing Sentreco 2 code here - return the results

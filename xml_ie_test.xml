@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<results>
+<input>help</input>
+<number_of_prompts>2</number_of_prompts>
+<prompts>
+<prompt>
+<prompt_number>0</prompt_number>
+<prompt_text>try</prompt_text>
+<prompt_score>0</prompt_score>
+</prompt>
+<prompt>
+<prompt_number>1</prompt_number>
+<prompt_text>this</prompt_text>
+<prompt_score>0</prompt_score>
+</prompt>
+</prompts>
+<matching_prompt>try</matching_prompt>
+<matching_prompt_score>0</matching_prompt_score>
+<start_time>1378420843</start_time>
+<end_time>1378420843</end_time>
+<time_elapsed>0</time_elapsed>
+</results>

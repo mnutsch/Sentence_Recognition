@@ -1,0 +1,16 @@
+Sentreco2 Bot Test Form
+
+A web page to test interactions with a Sentreco2 bot.
+
+There will be a user text input box
+There will be a Send button
+There will be a text area which cannot be edited by the user
+
+There will be a button to return to the Manage Bots page
+
+When the user clicks Send or presses Enter
+The text area content will be updated with the text "Me: " . $input . "\n"
+then the Sentreco2 API will be contacted with the Bot_ID, the $input, and the $current_scenario
+The text area content will be updated with the text $Bot_Name . ": " . $Api_Reply . "\n"
+
+All of the interactions will be done through Javascript to make the process feel seemless

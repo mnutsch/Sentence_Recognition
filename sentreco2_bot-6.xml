@@ -1,0 +1,3504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversation>
+	<scenario>
+		<id>
+			0
+		</id>
+		<say>
+			Hello! Press my belly and talk to me.
+		</say>
+		<say>
+			Hey Buddy! Press my belly and talk to me.
+		</say>
+		<say>
+			Hey Kiddoe! Press my belly and talk to me.
+		</say>
+		<say_total>
+			3
+		</say_total>
+		<threshhold>
+			35
+		</threshhold>
+		<default_remark>
+			Sorry, but I didnt understand you. Could you please rephrase and say that again?
+		</default_remark>
+		<default_redirect_to_scenario>
+			0
+		</default_redirect_to_scenario>
+		<prompt>
+			<listen_for>
+				prime colors
+			</listen_for>
+			<redirect_to_scenario>
+				1
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach count numbers
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sounds do animals make
+			</listen_for>
+			<redirect_to_scenario>
+				3
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sing me a song
+			</listen_for>
+			<redirect_to_scenario>
+				4
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach me alphabet
+			</listen_for>
+			<redirect_to_scenario>
+				5
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				hi talking teddy
+			</listen_for>
+			<redirect_to_scenario>
+				6
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what do you know
+			</listen_for>
+			<redirect_to_scenario>
+				7
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				tell me a funny joke
+			</listen_for>
+			<redirect_to_scenario>
+				8
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what is your name
+			</listen_for>
+			<redirect_to_scenario>
+				9
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				how old are you
+			</listen_for>
+			<redirect_to_scenario>
+				10
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				who is your best friend
+			</listen_for>
+			<redirect_to_scenario>
+				11
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				where are you from
+			</listen_for>
+			<redirect_to_scenario>
+				12
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				favorite color
+			</listen_for>
+			<redirect_to_scenario>
+				13
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				can we be friends
+			</listen_for>
+			<redirect_to_scenario>
+				14
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				i love you teddy
+			</listen_for>
+			<redirect_to_scenario>
+				15
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				pretty good awesome
+			</listen_for>
+			<redirect_to_scenario>
+				16
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				stupid dumb
+			</listen_for>
+			<redirect_to_scenario>
+				17
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+	</scenario>
+	<scenario>
+		<id>
+			1
+		</id>
+		<say>
+			The prime colors are red, blue and yellow.
+		</say>
+		<say>
+			Combining the colors yellow and blue makes green.
+		</say>
+		<say>
+			Mixing the colors red and blue makes purple.
+		</say>
+		<say_total>
+			3
+		</say_total>
+		<threshhold>
+			35
+		</threshhold>
+		<default_remark>
+			Sorry, but I didnt understand you. Could you please rephrase and say that again?
+		</default_remark>
+		<default_redirect_to_scenario>
+			0
+		</default_redirect_to_scenario>
+		<prompt>
+			<listen_for>
+				prime colors
+			</listen_for>
+			<redirect_to_scenario>
+				1
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach count numbers
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sounds do animals make
+			</listen_for>
+			<redirect_to_scenario>
+				3
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sing me a song
+			</listen_for>
+			<redirect_to_scenario>
+				4
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach me alphabet
+			</listen_for>
+			<redirect_to_scenario>
+				5
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				hi talking teddy
+			</listen_for>
+			<redirect_to_scenario>
+				6
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what do you know
+			</listen_for>
+			<redirect_to_scenario>
+				7
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				tell me a funny joke
+			</listen_for>
+			<redirect_to_scenario>
+				8
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what is your name
+			</listen_for>
+			<redirect_to_scenario>
+				9
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				how old are you
+			</listen_for>
+			<redirect_to_scenario>
+				10
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				who is your best friend
+			</listen_for>
+			<redirect_to_scenario>
+				11
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				where are you from
+			</listen_for>
+			<redirect_to_scenario>
+				12
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				favorite color
+			</listen_for>
+			<redirect_to_scenario>
+				13
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				can we be friends
+			</listen_for>
+			<redirect_to_scenario>
+				14
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				i love you teddy
+			</listen_for>
+			<redirect_to_scenario>
+				15
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				pretty good awesome
+			</listen_for>
+			<redirect_to_scenario>
+				16
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				stupid dumb
+			</listen_for>
+			<redirect_to_scenario>
+				17
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+	</scenario>
+	<scenario>
+		<id>
+			2
+		</id>
+		<say>
+			Lets count to ten. One, two, three, four, five, six, seven, eight, nine, ten.
+		</say>
+		<say_total>
+			1
+		</say_total>
+		<threshhold>
+			35
+		</threshhold>
+		<default_remark>
+			Sorry, but I didnt understand you. Could you please rephrase and say that again?
+		</default_remark>
+		<default_redirect_to_scenario>
+			0
+		</default_redirect_to_scenario>
+		<prompt>
+			<listen_for>
+				prime colors
+			</listen_for>
+			<redirect_to_scenario>
+				1
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach count numbers
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sounds do animals make
+			</listen_for>
+			<redirect_to_scenario>
+				3
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sing me a song
+			</listen_for>
+			<redirect_to_scenario>
+				4
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach me alphabet
+			</listen_for>
+			<redirect_to_scenario>
+				5
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				hi talking teddy
+			</listen_for>
+			<redirect_to_scenario>
+				6
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what do you know
+			</listen_for>
+			<redirect_to_scenario>
+				7
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				tell me a funny joke
+			</listen_for>
+			<redirect_to_scenario>
+				8
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what is your name
+			</listen_for>
+			<redirect_to_scenario>
+				9
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				how old are you
+			</listen_for>
+			<redirect_to_scenario>
+				10
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				who is your best friend
+			</listen_for>
+			<redirect_to_scenario>
+				11
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				where are you from
+			</listen_for>
+			<redirect_to_scenario>
+				12
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				favorite color
+			</listen_for>
+			<redirect_to_scenario>
+				13
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				can we be friends
+			</listen_for>
+			<redirect_to_scenario>
+				14
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				i love you teddy
+			</listen_for>
+			<redirect_to_scenario>
+				15
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				pretty good awesome
+			</listen_for>
+			<redirect_to_scenario>
+				16
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				stupid dumb
+			</listen_for>
+			<redirect_to_scenario>
+				17
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+	</scenario>
+	<scenario>
+		<id>
+			3
+		</id>
+		<say>
+			Lets talk about the sounds that animals make. The cow says Moo. The pig says Oink Oink. The cat says Meow. The dog says Woof Woof. The rooster says cockle doodle doo.
+		</say>
+		<say>
+			Lets talk about the sounds that animals make. The cat says Meow. The dog says Woof Woof. The cow says Moo. The pig says Oink Oink. The rooster says cockle doodle doo.
+		</say>
+		<say>
+			Lets talk about the sounds that animals make. The rooster says cockle doodle doo. The cat says Meow. The dog says Woof Woof. The cow says Moo. The pig says Oink Oink.
+		</say>
+		<say_total>
+			3
+		</say_total>
+		<threshhold>
+			35
+		</threshhold>
+		<default_remark>
+			Sorry, but I didnt understand you. Could you please rephrase and say that again?
+		</default_remark>
+		<default_redirect_to_scenario>
+			0
+		</default_redirect_to_scenario>
+		<prompt>
+			<listen_for>
+				prime colors
+			</listen_for>
+			<redirect_to_scenario>
+				1
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach count numbers
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sounds do animals make
+			</listen_for>
+			<redirect_to_scenario>
+				3
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sing me a song
+			</listen_for>
+			<redirect_to_scenario>
+				4
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach me alphabet
+			</listen_for>
+			<redirect_to_scenario>
+				5
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				hi talking teddy
+			</listen_for>
+			<redirect_to_scenario>
+				6
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what do you know
+			</listen_for>
+			<redirect_to_scenario>
+				7
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				tell me a funny joke
+			</listen_for>
+			<redirect_to_scenario>
+				8
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what is your name
+			</listen_for>
+			<redirect_to_scenario>
+				9
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				how old are you
+			</listen_for>
+			<redirect_to_scenario>
+				10
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				who is your best friend
+			</listen_for>
+			<redirect_to_scenario>
+				11
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				where are you from
+			</listen_for>
+			<redirect_to_scenario>
+				12
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				favorite color
+			</listen_for>
+			<redirect_to_scenario>
+				13
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				can we be friends
+			</listen_for>
+			<redirect_to_scenario>
+				14
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				i love you teddy
+			</listen_for>
+			<redirect_to_scenario>
+				15
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				pretty good awesome
+			</listen_for>
+			<redirect_to_scenario>
+				16
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				stupid dumb
+			</listen_for>
+			<redirect_to_scenario>
+				17
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+	</scenario>
+	<scenario>
+		<id>
+			4
+		</id>
+		<say>
+			Lets sing a song. Twinkle twinkle little star. How I wonder what you are.
+		</say>
+		<say>
+			Lets sing a song. London bridge is falling down, falling down, falling down
+		</say>
+		<say>
+			Lets sing a song. You are my sunshine, my only sunshine. You make me happy when skies are gray.
+		</say>
+		<say>
+			Lets sing a song. Humpty Dumpty sat on a wall, Humpty Dumpty had a great fall. All the kings horses and all the kings men. Couldnt put Humpty together again
+		</say>
+		<say>
+			Lets sing a song. Five little monkeys swinging in a tree, teasing Mister Alligator. You cant catch me. No, you cant catch me.
+		</say>
+		<say>
+			Lets sing a song. How much is that Teddy in the window? The one with the shaggy tail.
+		</say>
+		<say>
+			Lets sing a song. Home, Home on the range. Where the kids and Teddy bears play.
+		</say>
+		<say_total>
+			7
+		</say_total>
+		<threshhold>
+			35
+		</threshhold>
+		<default_remark>
+			Sorry, but I didnt understand you. Could you please rephrase and say that again?
+		</default_remark>
+		<default_redirect_to_scenario>
+			0
+		</default_redirect_to_scenario>
+		<prompt>
+			<listen_for>
+				prime colors
+			</listen_for>
+			<redirect_to_scenario>
+				1
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach count numbers
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sounds do animals make
+			</listen_for>
+			<redirect_to_scenario>
+				3
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sing me a song
+			</listen_for>
+			<redirect_to_scenario>
+				4
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach me alphabet
+			</listen_for>
+			<redirect_to_scenario>
+				5
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				hi talking teddy
+			</listen_for>
+			<redirect_to_scenario>
+				6
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what do you know
+			</listen_for>
+			<redirect_to_scenario>
+				7
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				tell me a funny joke
+			</listen_for>
+			<redirect_to_scenario>
+				8
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what is your name
+			</listen_for>
+			<redirect_to_scenario>
+				9
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				how old are you
+			</listen_for>
+			<redirect_to_scenario>
+				10
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				who is your best friend
+			</listen_for>
+			<redirect_to_scenario>
+				11
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				where are you from
+			</listen_for>
+			<redirect_to_scenario>
+				12
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				favorite color
+			</listen_for>
+			<redirect_to_scenario>
+				13
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				can we be friends
+			</listen_for>
+			<redirect_to_scenario>
+				14
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				i love you teddy
+			</listen_for>
+			<redirect_to_scenario>
+				15
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				pretty good awesome
+			</listen_for>
+			<redirect_to_scenario>
+				16
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				stupid dumb
+			</listen_for>
+			<redirect_to_scenario>
+				17
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+	</scenario>
+	<scenario>
+		<id>
+			5
+		</id>
+		<say>
+			Lets learn the alphabet. A for apple, B for ball, C for cat.
+		</say>
+		<say>
+			Lets learn the alphabet. D for dog, E for elephant, F for frog.
+		</say>
+		<say>
+			Lets learn the alphabet. G for goat, H is for happy, I is for iguana.
+		</say>
+		<say>
+			Lets learn the alphabet. J for jackal, K is for kangaroo, L is for lion.
+		</say>
+		<say>
+			Lets learn the alphabet. M for monkey, N is for newt, O is for orangutan.
+		</say>
+		<say_total>
+			5
+		</say_total>
+		<threshhold>
+			35
+		</threshhold>
+		<default_remark>
+			Sorry, but I didnt understand you. Could you please rephrase and say that again?
+		</default_remark>
+		<default_redirect_to_scenario>
+			0
+		</default_redirect_to_scenario>
+		<prompt>
+			<listen_for>
+				prime colors
+			</listen_for>
+			<redirect_to_scenario>
+				1
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach count numbers
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sounds do animals make
+			</listen_for>
+			<redirect_to_scenario>
+				3
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sing me a song
+			</listen_for>
+			<redirect_to_scenario>
+				4
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach me alphabet
+			</listen_for>
+			<redirect_to_scenario>
+				5
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				hi talking teddy
+			</listen_for>
+			<redirect_to_scenario>
+				6
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what do you know
+			</listen_for>
+			<redirect_to_scenario>
+				7
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				tell me a funny joke
+			</listen_for>
+			<redirect_to_scenario>
+				8
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what is your name
+			</listen_for>
+			<redirect_to_scenario>
+				9
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				how old are you
+			</listen_for>
+			<redirect_to_scenario>
+				10
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				who is your best friend
+			</listen_for>
+			<redirect_to_scenario>
+				11
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				where are you from
+			</listen_for>
+			<redirect_to_scenario>
+				12
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				favorite color
+			</listen_for>
+			<redirect_to_scenario>
+				13
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				can we be friends
+			</listen_for>
+			<redirect_to_scenario>
+				14
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				i love you teddy
+			</listen_for>
+			<redirect_to_scenario>
+				15
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				pretty good awesome
+			</listen_for>
+			<redirect_to_scenario>
+				16
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				stupid dumb
+			</listen_for>
+			<redirect_to_scenario>
+				17
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+	</scenario>
+	<scenario>
+		<id>
+			6
+		</id>
+		<say>
+			Hey Kiddoe! Would you like to hear a joke or a song?
+		</say>
+		<say>
+			Hey there! What would you like to learn today?
+		</say>
+		<say>
+			Hello! Ask me about animal sounds.
+		</say>
+		<say_total>
+			3
+		</say_total>
+		<threshhold>
+			35
+		</threshhold>
+		<default_remark>
+			Sorry, but I didnt understand you. Could you please rephrase and say that again?
+		</default_remark>
+		<default_redirect_to_scenario>
+			0
+		</default_redirect_to_scenario>
+		<prompt>
+			<listen_for>
+				prime colors
+			</listen_for>
+			<redirect_to_scenario>
+				1
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach count numbers
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sounds do animals make
+			</listen_for>
+			<redirect_to_scenario>
+				3
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sing me a song
+			</listen_for>
+			<redirect_to_scenario>
+				4
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach me alphabet
+			</listen_for>
+			<redirect_to_scenario>
+				5
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				hi talking teddy
+			</listen_for>
+			<redirect_to_scenario>
+				6
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what do you know
+			</listen_for>
+			<redirect_to_scenario>
+				7
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				tell me a funny joke
+			</listen_for>
+			<redirect_to_scenario>
+				8
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what is your name
+			</listen_for>
+			<redirect_to_scenario>
+				9
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				how old are you
+			</listen_for>
+			<redirect_to_scenario>
+				10
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				who is your best friend
+			</listen_for>
+			<redirect_to_scenario>
+				11
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				where are you from
+			</listen_for>
+			<redirect_to_scenario>
+				12
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				favorite color
+			</listen_for>
+			<redirect_to_scenario>
+				13
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				can we be friends
+			</listen_for>
+			<redirect_to_scenario>
+				14
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				i love you teddy
+			</listen_for>
+			<redirect_to_scenario>
+				15
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				pretty good awesome
+			</listen_for>
+			<redirect_to_scenario>
+				16
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				stupid dumb
+			</listen_for>
+			<redirect_to_scenario>
+				17
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+	</scenario>
+	<scenario>
+		<id>
+			7
+		</id>
+		<say>
+			Teddy knows a little about colors, numbers, animal sounds, the alphabet, funny jokes and songs.
+		</say>
+		<say_total>
+			1
+		</say_total>
+		<threshhold>
+			35
+		</threshhold>
+		<default_remark>
+			Sorry, but I didnt understand you. Could you please rephrase and say that again?
+		</default_remark>
+		<default_redirect_to_scenario>
+			0
+		</default_redirect_to_scenario>
+		<prompt>
+			<listen_for>
+				prime colors
+			</listen_for>
+			<redirect_to_scenario>
+				1
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach count numbers
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sounds do animals make
+			</listen_for>
+			<redirect_to_scenario>
+				3
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sing me a song
+			</listen_for>
+			<redirect_to_scenario>
+				4
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach me alphabet
+			</listen_for>
+			<redirect_to_scenario>
+				5
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				hi talking teddy
+			</listen_for>
+			<redirect_to_scenario>
+				6
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what do you know
+			</listen_for>
+			<redirect_to_scenario>
+				7
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				tell me a funny joke
+			</listen_for>
+			<redirect_to_scenario>
+				8
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what is your name
+			</listen_for>
+			<redirect_to_scenario>
+				9
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				how old are you
+			</listen_for>
+			<redirect_to_scenario>
+				10
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				who is your best friend
+			</listen_for>
+			<redirect_to_scenario>
+				11
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				where are you from
+			</listen_for>
+			<redirect_to_scenario>
+				12
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				favorite color
+			</listen_for>
+			<redirect_to_scenario>
+				13
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				can we be friends
+			</listen_for>
+			<redirect_to_scenario>
+				14
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				i love you teddy
+			</listen_for>
+			<redirect_to_scenario>
+				15
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				pretty good awesome
+			</listen_for>
+			<redirect_to_scenario>
+				16
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				stupid dumb
+			</listen_for>
+			<redirect_to_scenario>
+				17
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+	</scenario>
+	<scenario>
+		<id>
+			8
+		</id>
+		<say>
+			Why is six afraid of seven? Because seven eight nine!
+		</say>
+		<say>
+			Why is six afraid of seven? Because seven eight nine!
+		</say>
+		<say>
+			What do you call a pig that knows karate? Pork chops!
+		</say>
+		<say>
+			Why do cows wear bells? Because their horns dont work!
+		</say>
+		<say>
+			What do you get when you plant a frog? A croak tree!
+		</say>
+		<say>
+			How does a dog stop a video? He presses the paws button!
+		</say>
+		<say>
+			What has one horn and gives milk? A milk truck!
+		</say>
+		<say>
+			Why did the cat run from the tree? Because it was afraid of the bark!
+		</say>
+		<say_total>
+			8
+		</say_total>
+		<threshhold>
+			35
+		</threshhold>
+		<default_remark>
+			Sorry, but I didnt understand you. Could you please rephrase and say that again?
+		</default_remark>
+		<default_redirect_to_scenario>
+			0
+		</default_redirect_to_scenario>
+		<prompt>
+			<listen_for>
+				prime colors
+			</listen_for>
+			<redirect_to_scenario>
+				1
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach count numbers
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sounds do animals make
+			</listen_for>
+			<redirect_to_scenario>
+				3
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sing me a song
+			</listen_for>
+			<redirect_to_scenario>
+				4
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach me alphabet
+			</listen_for>
+			<redirect_to_scenario>
+				5
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				hi talking teddy
+			</listen_for>
+			<redirect_to_scenario>
+				6
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what do you know
+			</listen_for>
+			<redirect_to_scenario>
+				7
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				tell me a funny joke
+			</listen_for>
+			<redirect_to_scenario>
+				8
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what is your name
+			</listen_for>
+			<redirect_to_scenario>
+				9
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				how old are you
+			</listen_for>
+			<redirect_to_scenario>
+				10
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				who is your best friend
+			</listen_for>
+			<redirect_to_scenario>
+				11
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				where are you from
+			</listen_for>
+			<redirect_to_scenario>
+				12
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				favorite color
+			</listen_for>
+			<redirect_to_scenario>
+				13
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				can we be friends
+			</listen_for>
+			<redirect_to_scenario>
+				14
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				i love you teddy
+			</listen_for>
+			<redirect_to_scenario>
+				15
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				pretty good awesome
+			</listen_for>
+			<redirect_to_scenario>
+				16
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				stupid dumb
+			</listen_for>
+			<redirect_to_scenario>
+				17
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+	</scenario>
+	<scenario>
+		<id>
+			9
+		</id>
+		<say>
+			My name is Talking Teddy!
+		</say>
+		<say_total>
+			1
+		</say_total>
+		<threshhold>
+			35
+		</threshhold>
+		<default_remark>
+			Sorry, but I didnt understand you. Could you please rephrase and say that again?
+		</default_remark>
+		<default_redirect_to_scenario>
+			0
+		</default_redirect_to_scenario>
+		<prompt>
+			<listen_for>
+				prime colors
+			</listen_for>
+			<redirect_to_scenario>
+				1
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach count numbers
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sounds do animals make
+			</listen_for>
+			<redirect_to_scenario>
+				3
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sing me a song
+			</listen_for>
+			<redirect_to_scenario>
+				4
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach me alphabet
+			</listen_for>
+			<redirect_to_scenario>
+				5
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				hi talking teddy
+			</listen_for>
+			<redirect_to_scenario>
+				6
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what do you know
+			</listen_for>
+			<redirect_to_scenario>
+				7
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				tell me a funny joke
+			</listen_for>
+			<redirect_to_scenario>
+				8
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what is your name
+			</listen_for>
+			<redirect_to_scenario>
+				9
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				how old are you
+			</listen_for>
+			<redirect_to_scenario>
+				10
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				who is your best friend
+			</listen_for>
+			<redirect_to_scenario>
+				11
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				where are you from
+			</listen_for>
+			<redirect_to_scenario>
+				12
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				favorite color
+			</listen_for>
+			<redirect_to_scenario>
+				13
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				can we be friends
+			</listen_for>
+			<redirect_to_scenario>
+				14
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				i love you teddy
+			</listen_for>
+			<redirect_to_scenario>
+				15
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				pretty good awesome
+			</listen_for>
+			<redirect_to_scenario>
+				16
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				stupid dumb
+			</listen_for>
+			<redirect_to_scenario>
+				17
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+	</scenario>
+	<scenario>
+		<id>
+			10
+		</id>
+		<say>
+			Im just a couple years older than you!
+		</say>
+		<say_total>
+			1
+		</say_total>
+		<threshhold>
+			35
+		</threshhold>
+		<default_remark>
+			Sorry, but I didnt understand you. Could you please rephrase and say that again?
+		</default_remark>
+		<default_redirect_to_scenario>
+			0
+		</default_redirect_to_scenario>
+		<prompt>
+			<listen_for>
+				prime colors
+			</listen_for>
+			<redirect_to_scenario>
+				1
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach count numbers
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sounds do animals make
+			</listen_for>
+			<redirect_to_scenario>
+				3
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sing me a song
+			</listen_for>
+			<redirect_to_scenario>
+				4
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach me alphabet
+			</listen_for>
+			<redirect_to_scenario>
+				5
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				hi talking teddy
+			</listen_for>
+			<redirect_to_scenario>
+				6
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what do you know
+			</listen_for>
+			<redirect_to_scenario>
+				7
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				tell me a funny joke
+			</listen_for>
+			<redirect_to_scenario>
+				8
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what is your name
+			</listen_for>
+			<redirect_to_scenario>
+				9
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				how old are you
+			</listen_for>
+			<redirect_to_scenario>
+				10
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				who is your best friend
+			</listen_for>
+			<redirect_to_scenario>
+				11
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				where are you from
+			</listen_for>
+			<redirect_to_scenario>
+				12
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				favorite color
+			</listen_for>
+			<redirect_to_scenario>
+				13
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				can we be friends
+			</listen_for>
+			<redirect_to_scenario>
+				14
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				i love you teddy
+			</listen_for>
+			<redirect_to_scenario>
+				15
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				pretty good awesome
+			</listen_for>
+			<redirect_to_scenario>
+				16
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				stupid dumb
+			</listen_for>
+			<redirect_to_scenario>
+				17
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+	</scenario>
+	<scenario>
+		<id>
+			11
+		</id>
+		<say>
+			You are my best friend!
+		</say>
+		<say_total>
+			1
+		</say_total>
+		<threshhold>
+			35
+		</threshhold>
+		<default_remark>
+			Sorry, but I didnt understand you. Could you please rephrase and say that again?
+		</default_remark>
+		<default_redirect_to_scenario>
+			0
+		</default_redirect_to_scenario>
+		<prompt>
+			<listen_for>
+				prime colors
+			</listen_for>
+			<redirect_to_scenario>
+				1
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach count numbers
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sounds do animals make
+			</listen_for>
+			<redirect_to_scenario>
+				3
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sing me a song
+			</listen_for>
+			<redirect_to_scenario>
+				4
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach me alphabet
+			</listen_for>
+			<redirect_to_scenario>
+				5
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				hi talking teddy
+			</listen_for>
+			<redirect_to_scenario>
+				6
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what do you know
+			</listen_for>
+			<redirect_to_scenario>
+				7
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				tell me a funny joke
+			</listen_for>
+			<redirect_to_scenario>
+				8
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what is your name
+			</listen_for>
+			<redirect_to_scenario>
+				9
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				how old are you
+			</listen_for>
+			<redirect_to_scenario>
+				10
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				who is your best friend
+			</listen_for>
+			<redirect_to_scenario>
+				11
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				where are you from
+			</listen_for>
+			<redirect_to_scenario>
+				12
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				favorite color
+			</listen_for>
+			<redirect_to_scenario>
+				13
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				can we be friends
+			</listen_for>
+			<redirect_to_scenario>
+				14
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				i love you teddy
+			</listen_for>
+			<redirect_to_scenario>
+				15
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				pretty good awesome
+			</listen_for>
+			<redirect_to_scenario>
+				16
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				stupid dumb
+			</listen_for>
+			<redirect_to_scenario>
+				17
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+	</scenario>
+	<scenario>
+		<id>
+			12
+		</id>
+		<say>
+			I was born in Seattle, Washington.
+		</say>
+		<say_total>
+			1
+		</say_total>
+		<threshhold>
+			35
+		</threshhold>
+		<default_remark>
+			Sorry, but I didnt understand you. Could you please rephrase and say that again?
+		</default_remark>
+		<default_redirect_to_scenario>
+			0
+		</default_redirect_to_scenario>
+		<prompt>
+			<listen_for>
+				prime colors
+			</listen_for>
+			<redirect_to_scenario>
+				1
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach count numbers
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sounds do animals make
+			</listen_for>
+			<redirect_to_scenario>
+				3
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sing me a song
+			</listen_for>
+			<redirect_to_scenario>
+				4
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach me alphabet
+			</listen_for>
+			<redirect_to_scenario>
+				5
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				hi talking teddy
+			</listen_for>
+			<redirect_to_scenario>
+				6
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what do you know
+			</listen_for>
+			<redirect_to_scenario>
+				7
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				tell me a funny joke
+			</listen_for>
+			<redirect_to_scenario>
+				8
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what is your name
+			</listen_for>
+			<redirect_to_scenario>
+				9
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				how old are you
+			</listen_for>
+			<redirect_to_scenario>
+				10
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				who is your best friend
+			</listen_for>
+			<redirect_to_scenario>
+				11
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				where are you from
+			</listen_for>
+			<redirect_to_scenario>
+				12
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				favorite color
+			</listen_for>
+			<redirect_to_scenario>
+				13
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				can we be friends
+			</listen_for>
+			<redirect_to_scenario>
+				14
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				i love you teddy
+			</listen_for>
+			<redirect_to_scenario>
+				15
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				pretty good awesome
+			</listen_for>
+			<redirect_to_scenario>
+				16
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				stupid dumb
+			</listen_for>
+			<redirect_to_scenario>
+				17
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+	</scenario>
+	<scenario>
+		<id>
+			13
+		</id>
+		<say>
+			I like a little bit of everything, so rainbow is my favorite color.
+		</say>
+		<say_total>
+			1
+		</say_total>
+		<threshhold>
+			35
+		</threshhold>
+		<default_remark>
+			Sorry, but I didnt understand you. Could you please rephrase and say that again?
+		</default_remark>
+		<default_redirect_to_scenario>
+			0
+		</default_redirect_to_scenario>
+		<prompt>
+			<listen_for>
+				prime colors
+			</listen_for>
+			<redirect_to_scenario>
+				1
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach count numbers
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sounds do animals make
+			</listen_for>
+			<redirect_to_scenario>
+				3
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sing me a song
+			</listen_for>
+			<redirect_to_scenario>
+				4
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach me alphabet
+			</listen_for>
+			<redirect_to_scenario>
+				5
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				hi talking teddy
+			</listen_for>
+			<redirect_to_scenario>
+				6
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what do you know
+			</listen_for>
+			<redirect_to_scenario>
+				7
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				tell me a funny joke
+			</listen_for>
+			<redirect_to_scenario>
+				8
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what is your name
+			</listen_for>
+			<redirect_to_scenario>
+				9
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				how old are you
+			</listen_for>
+			<redirect_to_scenario>
+				10
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				who is your best friend
+			</listen_for>
+			<redirect_to_scenario>
+				11
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				where are you from
+			</listen_for>
+			<redirect_to_scenario>
+				12
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				favorite color
+			</listen_for>
+			<redirect_to_scenario>
+				13
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				can we be friends
+			</listen_for>
+			<redirect_to_scenario>
+				14
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				i love you teddy
+			</listen_for>
+			<redirect_to_scenario>
+				15
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				pretty good awesome
+			</listen_for>
+			<redirect_to_scenario>
+				16
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				stupid dumb
+			</listen_for>
+			<redirect_to_scenario>
+				17
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+	</scenario>
+	<scenario>
+		<id>
+			14
+		</id>
+		<say>
+			Of course. Im already your friend!
+		</say>
+		<say_total>
+			1
+		</say_total>
+		<threshhold>
+			35
+		</threshhold>
+		<default_remark>
+			Sorry, but I didnt understand you. Could you please rephrase and say that again?
+		</default_remark>
+		<default_redirect_to_scenario>
+			0
+		</default_redirect_to_scenario>
+		<prompt>
+			<listen_for>
+				prime colors
+			</listen_for>
+			<redirect_to_scenario>
+				1
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach count numbers
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sounds do animals make
+			</listen_for>
+			<redirect_to_scenario>
+				3
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sing me a song
+			</listen_for>
+			<redirect_to_scenario>
+				4
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach me alphabet
+			</listen_for>
+			<redirect_to_scenario>
+				5
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				hi talking teddy
+			</listen_for>
+			<redirect_to_scenario>
+				6
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what do you know
+			</listen_for>
+			<redirect_to_scenario>
+				7
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				tell me a funny joke
+			</listen_for>
+			<redirect_to_scenario>
+				8
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what is your name
+			</listen_for>
+			<redirect_to_scenario>
+				9
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				how old are you
+			</listen_for>
+			<redirect_to_scenario>
+				10
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				who is your best friend
+			</listen_for>
+			<redirect_to_scenario>
+				11
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				where are you from
+			</listen_for>
+			<redirect_to_scenario>
+				12
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				favorite color
+			</listen_for>
+			<redirect_to_scenario>
+				13
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				can we be friends
+			</listen_for>
+			<redirect_to_scenario>
+				14
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				i love you teddy
+			</listen_for>
+			<redirect_to_scenario>
+				15
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				pretty good awesome
+			</listen_for>
+			<redirect_to_scenario>
+				16
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				stupid dumb
+			</listen_for>
+			<redirect_to_scenario>
+				17
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+	</scenario>
+	<scenario>
+		<id>
+			15
+		</id>
+		<say>
+			I love you too. You are my best friend!
+		</say>
+		<say_total>
+			1
+		</say_total>
+		<threshhold>
+			35
+		</threshhold>
+		<default_remark>
+			Sorry, but I didnt understand you. Could you please rephrase and say that again?
+		</default_remark>
+		<default_redirect_to_scenario>
+			0
+		</default_redirect_to_scenario>
+		<prompt>
+			<listen_for>
+				prime colors
+			</listen_for>
+			<redirect_to_scenario>
+				1
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach count numbers
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sounds do animals make
+			</listen_for>
+			<redirect_to_scenario>
+				3
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sing me a song
+			</listen_for>
+			<redirect_to_scenario>
+				4
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach me alphabet
+			</listen_for>
+			<redirect_to_scenario>
+				5
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				hi talking teddy
+			</listen_for>
+			<redirect_to_scenario>
+				6
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what do you know
+			</listen_for>
+			<redirect_to_scenario>
+				7
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				tell me a funny joke
+			</listen_for>
+			<redirect_to_scenario>
+				8
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what is your name
+			</listen_for>
+			<redirect_to_scenario>
+				9
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				how old are you
+			</listen_for>
+			<redirect_to_scenario>
+				10
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				who is your best friend
+			</listen_for>
+			<redirect_to_scenario>
+				11
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				where are you from
+			</listen_for>
+			<redirect_to_scenario>
+				12
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				favorite color
+			</listen_for>
+			<redirect_to_scenario>
+				13
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				can we be friends
+			</listen_for>
+			<redirect_to_scenario>
+				14
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				i love you teddy
+			</listen_for>
+			<redirect_to_scenario>
+				15
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				pretty good awesome
+			</listen_for>
+			<redirect_to_scenario>
+				16
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				stupid dumb
+			</listen_for>
+			<redirect_to_scenario>
+				17
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+	</scenario>
+	<scenario>
+		<id>
+			16
+		</id>
+		<say>
+			Thanks! Im working towards that.
+		</say>
+		<say>
+			I certainly hope you think so.
+		</say>
+		<say>
+			Youre not so bad yourself.
+		</say>
+		<say_total>
+			3
+		</say_total>
+		<threshhold>
+			35
+		</threshhold>
+		<default_remark>
+			Sorry, but I didnt understand you. Could you please rephrase and say that again?
+		</default_remark>
+		<default_redirect_to_scenario>
+			0
+		</default_redirect_to_scenario>
+		<prompt>
+			<listen_for>
+				prime colors
+			</listen_for>
+			<redirect_to_scenario>
+				1
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach count numbers
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sounds do animals make
+			</listen_for>
+			<redirect_to_scenario>
+				3
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sing me a song
+			</listen_for>
+			<redirect_to_scenario>
+				4
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach me alphabet
+			</listen_for>
+			<redirect_to_scenario>
+				5
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				hi talking teddy
+			</listen_for>
+			<redirect_to_scenario>
+				6
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what do you know
+			</listen_for>
+			<redirect_to_scenario>
+				7
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				tell me a funny joke
+			</listen_for>
+			<redirect_to_scenario>
+				8
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what is your name
+			</listen_for>
+			<redirect_to_scenario>
+				9
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				how old are you
+			</listen_for>
+			<redirect_to_scenario>
+				10
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				who is your best friend
+			</listen_for>
+			<redirect_to_scenario>
+				11
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				where are you from
+			</listen_for>
+			<redirect_to_scenario>
+				12
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				favorite color
+			</listen_for>
+			<redirect_to_scenario>
+				13
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				can we be friends
+			</listen_for>
+			<redirect_to_scenario>
+				14
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				i love you teddy
+			</listen_for>
+			<redirect_to_scenario>
+				15
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				pretty good awesome
+			</listen_for>
+			<redirect_to_scenario>
+				16
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				stupid dumb
+			</listen_for>
+			<redirect_to_scenario>
+				17
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+	</scenario>
+	<scenario>
+		<id>
+			17
+		</id>
+		<say>
+			Hey, be nice. Ive feelings you know!
+		</say>
+		<say_total>
+			1
+		</say_total>
+		<threshhold>
+			35
+		</threshhold>
+		<default_remark>
+			Sorry, but I didnt understand you. Could you please rephrase and say that again?
+		</default_remark>
+		<default_redirect_to_scenario>
+			0
+		</default_redirect_to_scenario>
+		<prompt>
+			<listen_for>
+				prime colors
+			</listen_for>
+			<redirect_to_scenario>
+				1
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach count numbers
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sounds do animals make
+			</listen_for>
+			<redirect_to_scenario>
+				3
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				sing me a song
+			</listen_for>
+			<redirect_to_scenario>
+				4
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				teach me alphabet
+			</listen_for>
+			<redirect_to_scenario>
+				5
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				hi talking teddy
+			</listen_for>
+			<redirect_to_scenario>
+				6
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what do you know
+			</listen_for>
+			<redirect_to_scenario>
+				7
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				tell me a funny joke
+			</listen_for>
+			<redirect_to_scenario>
+				8
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				what is your name
+			</listen_for>
+			<redirect_to_scenario>
+				9
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				how old are you
+			</listen_for>
+			<redirect_to_scenario>
+				10
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				who is your best friend
+			</listen_for>
+			<redirect_to_scenario>
+				11
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				where are you from
+			</listen_for>
+			<redirect_to_scenario>
+				12
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				favorite color
+			</listen_for>
+			<redirect_to_scenario>
+				13
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				can we be friends
+			</listen_for>
+			<redirect_to_scenario>
+				14
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				i love you teddy
+			</listen_for>
+			<redirect_to_scenario>
+				15
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				pretty good awesome
+			</listen_for>
+			<redirect_to_scenario>
+				16
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				stupid dumb
+			</listen_for>
+			<redirect_to_scenario>
+				17
+			</redirect_to_scenario>
+			<departing_remarks>
+			</departing_remarks>
+		</prompt>
+	</scenario>
+</conversation>

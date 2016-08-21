@@ -1,0 +1,238 @@
+Sentreco 2 File Upload Process
+******************************
+
+Users will have an account on SentenceRecognition.com
+
+There will be a menu link on SentenceRecognition which is visible only to authenticated users, called Manage Bots
+
+There will be a menu link on SentenceRecognition which is visible only to authenticated users, called Instructions
+
+***
+
+Elements
+
+Manage Bots = Drupal Page with PHP
+Instructions = Drupal Page with static content
+Upload Bot Data File = Drupal Page with PHP
+Data File Upload Results = Drupal Page with PHP
+Delete Bot Data File = Drupal Page with PHP
+Deletion Complete Page = Drupal Page with PHP
+
+process_upload_bot.php = PHP script
+process_delete_bot.php = PHP script
+
+Bot Database = MySQL database
+	ID = Int - AI
+	Owned_By_User = VarChar(16)
+	Bot_Name = VarChar(60)
+	Bot_Access_Key = VarChar(60)
+	Times_Bot_Called = Int, default 0
+	Is_Deleted = Int, default is to 0
+
+
+***
+
+Manage Bots
+
+This page will display the bots that the logged in user owns
+	The bot name will be displayed
+	The bot number will be displayed
+	There will be a link to download an existing bot data file
+	There will be a link to upload a replacement data file for an existing bot - This will be a link to the Upload Bot Data File page, but there be a Bot_ID sent via REST (this will be a MD5 hash of the actual bot ID)
+	There will be a link to delete the bot data file
+	There will be a link to upload a new bot data file
+
+Notes: 
+Each bot line will be a web form with hidden inputs for name, bot ID, and Bot File
+Use a table to arrange the values
+
+//pseudocode
+
+//Echo Title
+
+//Echo Top Text
+
+//get User_ID
+
+//connect to the database
+
+//echo start of table
+
+//read bots where Owned_By_User = User_ID
+
+//For each result
+
+//echo form, name = bot_form_ . Bot_ID
+//echo the table cells with Bot_ID, Bot_Name, API link, Edit Button, Delete Button
+//echo end form
+
+//echo end of table
+
+//echo Create New Bot Button
+
+//close database
+
+***
+
+Upload Bot Data File
+
+If the Bot_ID is specified in REST then the name and number of the bot will be displayed
+A bot name input field will be present. If the Bot_ID is specified in REST then the name will be the default. Else the default value will be "My Bot".
+A file input box will be displayed. If the Bot_File is specified in REST then the existing file will be the default.
+A submit button will be present - This will POST the data to process_upload_bot.php
+A cancel button will be present - This will take the user back to the Manage Bots page
+A hidden input will be present = The name is Bot_ID, this is a MD5 hash of the actual bot ID 
+
+***
+
+Bot Data File Upload Results
+
+This will show a confirmation that a bot was uploaded
+
+If the Bot_ID is specified in REST then the name and number of the bot will be displayed
+Else an error message will be displayed
+
+A button labelled Continue will take the user back to the Manage Bots page
+
+***
+
+Delete Bot Data File
+
+If the Bot_ID is specified in REST then 
+{
+the name and number of the bot will be displayed
+Text will read "You are about to delete this bot. Are you sure that you want to continue?"
+A hidden input will be present = The name is Bot_ID, this is a MD5 hash of the actual bot ID 
+A button labelled "Yes, delete this bot" will take the user to process_delete_bot.php
+}
+Else 
+{
+an error message will be displayed 
+a button will take the user back to the Manage Bots page
+}
+
+
+***
+
+process_upload_bot.php
+
+//pseudocode
+
+//If Bot_ID is set
+//{
+//Then myreal_escape_string the input
+//unhash the value with MD5
+//}
+
+//If Bot_Name is set
+//{
+//The myreal_escape_string the input
+//If the length of the input is < 1
+//{
+//set Bot_Name = "My Bot"
+//}
+//}
+
+//connect to the data base
+
+//query for the Bot_ID
+
+//If Bot_ID is in the data base
+//{
+//Then update the fields with the data fields
+
+//If Bot_File is set
+//{
+//The allowed file type is "XML"
+//Explode the input
+//If the allowed file type is "XML"
+//The myreal_escape_string the input
+//If the length of the input is < 1
+//{
+//set Bot_Name = "My Bot"
+//}
+//}
+
+//}
+//Else
+//{
+
+//Query the database to get the highest bot ID number
+//NOTE: Manually enter the first bot ID's before running this the first time
+//Increment the highest bot ID number by 1, this is the new bot ID number
+
+//If Bot_File is set
+//{
+//The allowed file type is "XML"
+//Explode the input
+//If the allowed file type is "XML"
+//If the file type is XML
+//{
+//Save the XML file using the structured data file name and the bot ID
+//}
+//}
+
+//insert the bot info into the database
+
+//}
+
+***
+
+process_delete_bot.php
+
+//If Bot_ID is set
+//{
+//Then myreal_escape_string the input
+//unhash the value with MD5
+//}
+
+//connect to the data base
+
+//query for the Bot_ID
+
+//If Bot_ID is in the data base
+//{
+//Then update the Is_Deleted field to 1
+//redirect user to the Deletion Complete page and send Bot_ID in REST
+//}
+//else
+//{
+//redirect user to the Deletion Complete page and send Bot_ID and Error_Present in REST
+//}
+//
+
+//close database connection
+
+***
+
+Deletion Complete Page
+
+//If Bot_ID is set
+//{
+//Then myreal_escape_string the input
+//unhash the value with MD5
+//}
+
+//If Error_Present is set
+//{
+//Then myreal_escape_string the input
+//tell us that there was an error
+//echo "There was an error with deleting bot # " . $Bot_ID . "<br>";
+//}
+//else
+//{
+//echo "Bot # " . $Bot_ID . " was successfully deleted.<br>";
+//}
+
+There will be a button labelled "Continue" which will take the user back to the Manage Bots page
+
+***
+
+Bot Database 
+
+ID = the bot ID #
+Owned_By_User = the User ID of the user who owns this bot
+Bot_Name = The name of this bot as assigned by the user
+Bot_Access_Key = A unique key required to access this bot (for future use)
+Times_Bot_Called = A counter of how many times the bot has been called
+Is_Deleted = default is to 0, setting this to 1 will hide the bot from the user

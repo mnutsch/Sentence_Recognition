@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversation>
+	<scenario>
+		<id>
+			0
+		</id>
+		<say>
+			Hello. This is the Ferguson Enterprises voice assistant. How can I help you today? Ask me for a list of options if you aren't sure.
+		</say>
+		<threshhold>
+			35
+		</threshhold>
+		<default_remark>
+			Sorry, but I didn't understand you. Could you please rephrase and say that again?
+		</default_remark>
+		<default_redirect_to_scenario>
+			4
+		</default_redirect_to_scenario>
+		<prompt>
+			<listen_for>
+				list of options
+			</listen_for>
+			<redirect_to_scenario>
+				1
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want a list of options.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				e-mail invoice copy
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want me to e-mail an invoice copy to you.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				e-mail you statement copy
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want me to e-mail a statement copy to you.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				e-mail delivery ticket copy
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want me to e-mail a copy of a delivery ticket to you.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				update billing address
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want to update the billing address for your account.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				take credit card payment
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want to pay your bill over the phone.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				help you with online web site
+			</listen_for>
+			<redirect_to_scenario>
+				3
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want help with the Ferguson Online web site.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				quote price product
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want a quote for a product.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				check delivery status order
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want to check on the delivery status of an order.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				new order phone
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want to place an order over the phone.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				human operator
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				This is a fully functional automated system. I can help you with anything that you need.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				not what i said
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I'm sorry that I didn't understand you. Will you please rephrase and state your request again?
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				say that again
+			</listen_for>
+			<redirect_to_scenario>
+				0
+			</redirect_to_scenario>
+			<departing_remarks>
+				repeating this scenario
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				start over
+			</listen_for>
+			<redirect_to_scenario>
+				0
+			</redirect_to_scenario>
+			<departing_remarks>
+				restarting at the beginning
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				goodbye
+			</listen_for>
+			<redirect_to_scenario>
+				4
+			</redirect_to_scenario>
+			<departing_remarks>
+				Have a nice day.
+			</departing_remarks>
+		</prompt>
+	</scenario>
+	<scenario>
+		<id>
+			1
+		</id>
+		<say>
+			Here's a list of some of the things that I can do. I can: e-mail you an invoice copy. e-mail you a statement copy. 
+			e-mail you a copy of a delivery ticket. update your billing address. take a credit card payment. 
+			help you with online bill payment. quote you a price for a product. check on the delivery status of an order. 
+			take a new order over the phone.
+		</say>
+		<threshhold>
+			35
+		</threshhold>
+		<default_remark>
+			Sorry, but I didn't understand you. Could you please rephrase and say that again?
+		</default_remark>
+		<default_redirect_to_scenario>
+			4
+		</default_redirect_to_scenario>
+		<prompt>
+			<listen_for>
+				list of options
+			</listen_for>
+			<redirect_to_scenario>
+				1
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want a list of options.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				e-mail invoice copy
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want me to e-mail an invoice copy to you.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				e-mail you statement copy
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want me to e-mail a statement copy to you.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				e-mail delivery ticket copy
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want me to e-mail a copy of a delivery ticket to you.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				update billing address
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want to update the billing address for your account.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				take credit card payment
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want to pay your bill over the phone.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				help you with online web site
+			</listen_for>
+			<redirect_to_scenario>
+				3
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want help with the Ferguson Online web site.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				quote price product
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want a quote for a product.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				check delivery status order
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want to check on the delivery status of an order.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				new order phone
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want to place an order over the phone.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				human operator
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				This is a fully functional automated system. I can help you with anything that you need.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				not what i said
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I'm sorry that I didn't understand you. Will you please rephrase and state your request again?
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				say that again
+			</listen_for>
+			<redirect_to_scenario>
+				0
+			</redirect_to_scenario>
+			<departing_remarks>
+				repeating this scenario
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				start over
+			</listen_for>
+			<redirect_to_scenario>
+				0
+			</redirect_to_scenario>
+			<departing_remarks>
+				restarting at the beginning
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				goodbye
+			</listen_for>
+			<redirect_to_scenario>
+				4
+			</redirect_to_scenario>
+			<departing_remarks>
+				Have a nice day.
+			</departing_remarks>
+		</prompt>
+	</scenario>
+	<scenario>
+		<id>
+			2
+		</id>
+		<say>
+			Sorry, but this option is not available yet. Is there something else that I can help you with?
+		</say>
+		<threshhold>
+			35
+		</threshhold>
+		<default_remark>
+			Sorry, but I didn't understand you. Could you please rephrase and say that again?
+		</default_remark>
+		<default_redirect_to_scenario>
+			4
+		</default_redirect_to_scenario>
+		<prompt>
+			<listen_for>
+				list of options
+			</listen_for>
+			<redirect_to_scenario>
+				1
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want list of options.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				list of options
+			</listen_for>
+			<redirect_to_scenario>
+				1
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want a list of options.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				e-mail invoice copy
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want me to e-mail an invoice copy to you.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				e-mail you statement copy
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want me to e-mail a statement copy to you.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				e-mail delivery ticket copy
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want me to e-mail a copy of a delivery ticket to you.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				update billing address
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want to update the billing address for your account.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				take credit card payment
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want to pay your bill over the phone.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				help you with online web site
+			</listen_for>
+			<redirect_to_scenario>
+				3
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want help with the Ferguson Online web site.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				quote price product
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want a quote for a product.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				check delivery status order
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want to check on the delivery status of an order.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				new order phone
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want to place an order over the phone.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				human operator
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				This is a fully functional automated system. I can help you with anything that you need.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				not what i said
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I'm sorry that I didn't understand you. Will you please rephrase and state your request again?
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				say that again
+			</listen_for>
+			<redirect_to_scenario>
+				0
+			</redirect_to_scenario>
+			<departing_remarks>
+				repeating this scenario
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				start over
+			</listen_for>
+			<redirect_to_scenario>
+				0
+			</redirect_to_scenario>
+			<departing_remarks>
+				restarting at the beginning
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				goodbye
+			</listen_for>
+			<redirect_to_scenario>
+				4
+			</redirect_to_scenario>
+			<departing_remarks>
+				Have a nice day.
+			</departing_remarks>
+		</prompt>
+	</scenario>
+	<scenario>
+		<id>
+			3
+		</id>
+		<say>
+			What question do you have about Ferguson Online?
+		</say>
+		<threshhold>
+			35
+		</threshhold>
+		<default_remark>
+			Sorry, but I didn't understand you. Could you please rephrase and say that again?
+		</default_remark>
+		<default_redirect_to_scenario>
+			4
+		</default_redirect_to_scenario>
+		<prompt>
+			<listen_for>
+				list of options
+			</listen_for>
+			<redirect_to_scenario>
+				1
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want a list of options.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				e-mail invoice copy
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want me to e-mail an invoice copy to you.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				e-mail you statement copy
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want me to e-mail a statement copy to you.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				e-mail delivery ticket copy
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want me to e-mail a copy of a delivery ticket to you.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				update billing address
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want to update the billing address for your account.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				take credit card payment
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want to pay your bill over the phone.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				help you with online web site
+			</listen_for>
+			<redirect_to_scenario>
+				3
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want help with the Ferguson Online web site.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				quote price product
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want a quote for a product.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				check delivery status order
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want to check on the delivery status of an order.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				new order phone
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want to place an order over the phone.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				human operator
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				This is a fully functional automated system. I can help you with anything that you need.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				not what i said
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I'm sorry that I didn't understand you. Will you please rephrase and state your request again?
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				say that again
+			</listen_for>
+			<redirect_to_scenario>
+				0
+			</redirect_to_scenario>
+			<departing_remarks>
+				repeating this scenario
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				start over
+			</listen_for>
+			<redirect_to_scenario>
+				0
+			</redirect_to_scenario>
+			<departing_remarks>
+				restarting at the beginning
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				goodbye
+			</listen_for>
+			<redirect_to_scenario>
+				4
+			</redirect_to_scenario>
+			<departing_remarks>
+				Have a nice day.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				how get access to pay my bills online
+			</listen_for>
+			<redirect_to_scenario>
+				5
+			</redirect_to_scenario>
+			<departing_remarks>
+				Log in to your account and click on the payments tab and then on Online Bill Pay.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				can pay lump sum short pay my bills
+			</listen_for>
+			<redirect_to_scenario>
+				5
+			</redirect_to_scenario>
+			<departing_remarks>
+				Payments can be made to an individual invoice or multiples invoices at the same time. You can also pay a portion of the invoice or several invoices if needed.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				how do find out who from my company has access to pay bills
+			</listen_for>
+			<redirect_to_scenario>
+				5
+			</redirect_to_scenario>
+			<departing_remarks>
+				When you login to your account and click on the Payments tab and then Online Bill Pay, you will see the name of your company's Accounts Payable Administrator.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				how do set up an additional user from my company to pay bills
+			</listen_for>
+			<redirect_to_scenario>
+				5
+			</redirect_to_scenario>
+			<departing_remarks>
+				Login to your account and go to the My Account Tab and click on View Company Profile and then Update USer.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				how many bank accounts can have saved to pay my bills
+			</listen_for>
+			<redirect_to_scenario>
+				5
+			</redirect_to_scenario>
+			<departing_remarks>
+				You can have multiple accounts saved to pay your bills.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				can pay my bills with credit card
+			</listen_for>
+			<redirect_to_scenario>
+				5
+			</redirect_to_scenario>
+			<departing_remarks>
+				Credit cards are not accepted online at this time.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				will be able to view payment history
+			</listen_for>
+			<redirect_to_scenario>
+				5
+			</redirect_to_scenario>
+			<departing_remarks>
+				Yes, you will be able to see the payments you have made under the Payments tab once you are on the bill pay screen.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				how do cancel payment
+			</listen_for>
+			<redirect_to_scenario>
+				5
+			</redirect_to_scenario>
+			<departing_remarks>
+				To cancel a payment, click the payment amount. Then click Cancel Selected Payments.
+			</departing_remarks>
+		</prompt>
+	</scenario>
+	<scenario>
+		<id>
+			4
+		</id>
+		<say>
+			.
+		</say>
+		<threshhold>
+			35
+		</threshhold>
+		<default_remark>
+			Sorry, but I did not understand you. Could you please rephrase and say that again?
+		</default_remark>
+		<default_redirect_to_scenario>
+			4
+		</default_redirect_to_scenario>
+		<prompt>
+			<listen_for>
+				list of options
+			</listen_for>
+			<redirect_to_scenario>
+				1
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want a list of options.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				e-mail invoice copy
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want me to e-mail an invoice copy to you.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				e-mail you statement copy
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want me to e-mail a statement copy to you.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				e-mail delivery ticket copy
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want me to e-mail a copy of a delivery ticket to you.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				update billing address
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want to update the billing address for your account.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				take credit card payment
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want to pay your bill over the phone.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				help you with online web site
+			</listen_for>
+			<redirect_to_scenario>
+				3
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want help with the Ferguson Online web site.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				quote price product
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want a quote for a product.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				check delivery status order
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want to check on the delivery status of an order.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				new order phone
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I understood that you want to place an order over the phone.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				human operator
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				This is a fully functional automated system. I can help you with anything that you need.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				not what i said
+			</listen_for>
+			<redirect_to_scenario>
+				2
+			</redirect_to_scenario>
+			<departing_remarks>
+				I'm sorry that I didn't understand you. Will you please rephrase and state your request again?
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				say that again
+			</listen_for>
+			<redirect_to_scenario>
+				0
+			</redirect_to_scenario>
+			<departing_remarks>
+				repeating this scenario
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				start over
+			</listen_for>
+			<redirect_to_scenario>
+				0
+			</redirect_to_scenario>
+			<departing_remarks>
+				restarting at the beginning
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				goodbye
+			</listen_for>
+			<redirect_to_scenario>
+				4
+			</redirect_to_scenario>
+			<departing_remarks>
+				Have a nice day.
+			</departing_remarks>
+		</prompt>
+	</scenario>
+	<scenario>
+		<id>
+			5
+		</id>
+		<say>
+			Do you have anymore questions about online bill payment?
+		</say>
+		<threshhold>
+			35
+		</threshhold>
+		<default_remark>
+			Sorry, but I didn't understand you. Could you please rephrase and say that again?
+		</default_remark>
+		<default_redirect_to_scenario>
+			4
+		</default_redirect_to_scenario>
+		<prompt>
+			<listen_for>
+				yes
+			</listen_for>
+			<redirect_to_scenario>
+				3
+			</redirect_to_scenario>
+			<departing_remarks>
+				.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				no
+			</listen_for>
+			<redirect_to_scenario>
+				4
+			</redirect_to_scenario>
+			<departing_remarks>
+				O K
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				human operator
+			</listen_for>
+			<redirect_to_scenario>
+				4
+			</redirect_to_scenario>
+			<departing_remarks>
+				This is a fully functional automated system. I can help you with anything that you need.
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				not what i said
+			</listen_for>
+			<redirect_to_scenario>
+				4
+			</redirect_to_scenario>
+			<departing_remarks>
+				I'm sorry that I didn't understand you. Will you please rephrase and state your request again?
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				say that again
+			</listen_for>
+			<redirect_to_scenario>
+				4
+			</redirect_to_scenario>
+			<departing_remarks>
+				repeating this scenario
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				start over
+			</listen_for>
+			<redirect_to_scenario>
+				0
+			</redirect_to_scenario>
+			<departing_remarks>
+				restarting at the beginning
+			</departing_remarks>
+		</prompt>
+		<prompt>
+			<listen_for>
+				goodbye
+			</listen_for>
+			<redirect_to_scenario>
+				4
+			</redirect_to_scenario>
+			<departing_remarks>
+				Have a nice day.
+			</departing_remarks>
+		</prompt>
+	</scenario>
+</conversation>

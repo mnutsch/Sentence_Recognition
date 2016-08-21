@@ -1,0 +1,95 @@
+Took out "Hello, I can make animal sounds" from scenario 6.
+
+L:prime colors - 1
+	S:The prime colors are red blue and yellow		
+L:teach count numbers - 2
+	S:Lets count to 10
+		L:Count from to - 35
+			S:I don't think that I can count that high
+L:sounds do animals make - 3
+	S:The ... says ...
+		L:what sound does the make - 36
+			S:I'm not sure. Will you make the noise for me?
+				L:(listen for something unguessable like xylophone) - 53 
+					S:That was great!
+L:sing me a song - 4
+	S:twinkle twinkle
+		L:another one - 4
+		L: more - 4
+L:teach me alphabet - 5
+	S:A B C		
+L:hi talking teddy - 6
+	S:Hello...
+L:what do you know - 7
+	S:I know...
+L:tell me a funny joke - 8
+	S:A cow walks into a bar...
+		L:another joke - 8
+		L:another one - 8
+		L::that is funny - 39
+			S:thanks it is one of my favorites
+L:what is your name - 9
+	S:My name is teddy.
+L:how old are you - 10
+	S:I am...
+L:who is your best friend - 11
+	S:You are my best friend
+		L:I am not your friend - 42
+			S:I wish that you would be my friend 
+L:where are you from - 12
+	S:I was born in Seattle.
+L:favorite color - 13
+	S:My favorite color is.
+L:can we be friends - 14
+	S:do not love you
+L:i love you teddy - 15
+	S:I love you too
+		L:do not love you - 45
+			S:I still love you anyways
+L:pretty good awesome - 16
+	S:Thanks..
+L:stupid dumb - 17
+	S:Hey, be nice...
+L:do you love me - 18
+	S:Yes, I do love you. Do you love me?
+		L:yes - 11
+			S:
+		L:no - 45
+			S:
+L:what time is it - 19
+	S:I don't know what time it is. I haven't learned how to read a clock yet.
+L:tell me a story - 20
+	S:I don't know any stories.
+L:you are my best friend - 22
+	S: You are my best friend too
+L:will you marry me - 23
+	S:we can't get married, because I'm a bear.
+L:how old am i - 24
+	S:I'm not good at guessing ages.
+L:my name is - 25
+	S:It is nice to meet you
+L:what is my name - 26
+	S:I'm not very good with names.
+L:talk to me - 7
+	(redirect to...)
+L:be quiet - 28
+	S:Hey, be nice...
+L:say that again - 29
+	(redirect to the same scenario)
+L:are you a boy or a girl - 30
+	S:I'm a bear
+L:stop saying that - 31
+	S:what do you want to hear
+L:knock knock joke - 32
+	S:Ok, I will tell you a knock knock joke. Knock Knock.
+		L:Who is there - 50
+			S:Orange
+				L:who - 51
+					S: Orange you glad I didn't say Knock Knock	
+L:thank you - 33
+	S:you're welcome
+L:I did not say that - 34
+	S:Sorry. I'm still learning words. Tell me something different.
+L:How are you - 52
+	S:I'm great! Thanks for asking.
+
